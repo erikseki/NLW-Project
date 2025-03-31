@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <main>
       <div className="text-white">Hello world!</div>
-      <Button/>
+      <Button text="Erik" />
+      <Button text="Seki" />
+      <Button text="" />
     </main>
   );
 }

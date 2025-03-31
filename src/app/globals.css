@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+    /*
+     criando as variáveis.
+     para bloquear as outras cores do tailwind utilizar --color-*: initial;
+    */
+    
+    --color-*: initial;
+
+    --color-danger:#F05D6C;
+    --color-darkpurple: #6400CE;
+    --color-purple: #9900FF;
+    --color-danger: #F05D6C;
+
+    --color-grey-100: #DAE4F2;
+    --color-grey-200: #C8D0DA;
+    --color-grey-300: #95A1B1;
+    --color-grey-400: #6F7D90;
+    --color-grey-500: #2A313C;
+    --color-grey-600: #21252C;
+    --color-grey-700: #191D24;
+    --color-grey-800: #13161B;
+    --color-grey-900: #0F1216;
+
+
+
+
+}
