@@ -23,7 +23,8 @@
     --color-grey-800: #13161B;
     --color-grey-900: #0F1216;
 
-
+    --font-heading: var(--font-oxanium);
+    --font-sans: var(--font-montserrat);
 
 
 }

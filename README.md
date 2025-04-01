@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). -->
+
+
+## Processos 📌
+
+- Instalação do Node 
+- Instalação do Next.js
+- Instalação do Tailwind Css
+- Explicação dos Componentes do React
+- Tipar os Componentes
+- Importando as Fontes/Cores do StyleGuid do Figma
+
+
+---
+
 
 ## Getting Started
 
