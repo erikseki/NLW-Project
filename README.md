@@ -9,7 +9,7 @@
 - Explicação dos Componentes do React
 - Tipar os Componentes
 - Importando as Fontes/Cores do StyleGuid do Figma
-
+- Configurando CSS do body da aplicação e Componente Button com o Tailwind 
 
 ---
 
