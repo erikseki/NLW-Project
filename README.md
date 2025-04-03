@@ -2,14 +2,28 @@
 
 
 ## Processos 📌
+<br/>
 
-- Instalação do Node 
-- Instalação do Next.js
-- Instalação do Tailwind Css
-- Explicação dos Componentes do React
+```27/03/2025```
+- Instalação do **Node**
+- Instalação do **Next.js**
+- Instalação do **Tailwind Css**
+
+```30/03/2025```
+- Explicação dos **Componentes** do React
 - Tipar os Componentes
 - Importando as Fontes/Cores do StyleGuid do Figma
-- Configurando CSS do body da aplicação e Componente Button com o Tailwind 
+
+```01/04/2025```
+- Configurando **CSS** do body da aplicação e Componente Button com o Tailwind 
+
+```02/04/2025```
+- Adicionando outro Componente Button Copy 
+- Adicionando a função **ComponentProps** do React para estender as propriedades de elementos HTML
+
+
+
+<br/>
 
 ---
 
