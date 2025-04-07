@@ -21,7 +21,13 @@
 - Adicionando outro Componente Button Copy 
 - Adicionando a função **ComponentProps** do React para estender as propriedades de elementos HTML
 
+```04/04/2025```
+- Retirando o tipo children do ComponentProps pois já vem nativamente de um button html
 
+```06/04/2025```
+- Criando o **Componete Input** 
+- Estilizando o Input e o Icon
+- Adicionando as **Variantes Arbitrárias** no Placeholder para o Span
 
 <br/>
 
