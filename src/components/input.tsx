@@ -2,12 +2,19 @@ import { Mail } from 'lucide-react'
 
 import { ComponentProps } from "react";
 
-interface InputProps extends ComponentProps<'input'> { }
+interface InputProps extends ComponentProps<'input'> {
+  error?: boolean
+  
+ }
 
-export function Input(props: InputProps) {
+export function Input({error = false, ...props}: InputProps) {
   return (
-    <div className="group bg-gray-800 h-12 border border-gray-600 rounded-xl px-4 flex items-center gap-2 focus-within:border-gray-100">
-      <span className="text-gray-400 group-focus-within:text-gray-100 group-[&:not(:has(input:placeholder-shown))]:text-gray-100">
+    <div
+     data-error={error}
+    className="group bg-gray-800 h-12 border border-gray-600 rounded-xl px-4 flex items-center gap-2 focus-within:border-gray-100"
+    >
+      <span className="text-gray-400 group-focus-within:text-gray-100 group-[&:not(:has(input:placeholder-shown))]:text-gray-100"
+      >
         <Mail />
       </span>
       <input
@@ -15,7 +22,7 @@ export function Input(props: InputProps) {
         {...props}
       />
     </div>
-  )
+  ) 
 }
 
 // Caso o input tiver o placeholder aparecendo, vai estilizar o span - input:placeholder-shown{}
