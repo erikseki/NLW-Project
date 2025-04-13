@@ -29,6 +29,10 @@
 - Estilizando o Input e o Icon
 - Adicionando as **Variantes Arbitrárias** no Placeholder para o Span
 
+```13/04/2025```
+- Criando uma propriedade boleana error para input-danger
+- Refatorando com **Composition Pattern** para desmembrar o Componente Input
+
 <br/>
 
 ---
