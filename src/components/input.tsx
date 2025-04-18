@@ -1,11 +1,10 @@
-import { ComponentProps } from "react";
-
+import type { ComponentProps } from 'react'
 
 // Components
 
 // Component Div Pai
 // extendendo o ComponentProps de uma div
-interface InputRootProps extends ComponentProps<'div'> { 
+interface InputRootProps extends ComponentProps<'div'> {
   error?: boolean // tipo do error opcional
 }
 export function InputRoot({ error = false, ...props }: InputRootProps) {
@@ -20,10 +19,11 @@ export function InputRoot({ error = false, ...props }: InputRootProps) {
 
 // Component Input Icon
 // extendendo o ComponentProps de um Span
-interface InputIconProps extends ComponentProps<'span'> { } 
+interface InputIconProps extends ComponentProps<'span'> {}
 export function InputIcon(props: InputIconProps) {
   return (
-    <span className="text-gray-400 group-focus-within:text-gray-100 group-[&:not(:has(input:placeholder-shown))]:text-gray-100 group-data-[error=true]:text-danger"
+    <span
+      className="text-gray-400 group-focus-within:text-gray-100 group-[&:not(:has(input:placeholder-shown))]:text-gray-100 group-data-[error=true]:text-danger"
       {...props}
     />
   )
@@ -31,20 +31,10 @@ export function InputIcon(props: InputIconProps) {
 
 // Component Input Field
 // extendendo o ComponentProps de um Input
-interface InputFieldProps extends ComponentProps<'input'> { }
+interface InputFieldProps extends ComponentProps<'input'> {}
 export function InputField(props: InputFieldProps) {
-  return (
-    <input
-      className="flex-1 outline-0 placeholder-gray-400"
-      {...props}
-    />
-  )
+  return <input className="flex-1 outline-0 placeholder-gray-400" {...props} />
 }
-
-
-
-
-
 
 // modelo antigo sem o Composition Pattern
 // interface InputProps extends ComponentProps<'input'> {
@@ -67,5 +57,5 @@ export function InputField(props: InputFieldProps) {
 //   {...props}
 // />
 //     </div>
-//   ) 
+//   )
 // }

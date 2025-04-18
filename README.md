@@ -33,7 +33,13 @@
 - Criando uma propriedade boleana error para input-danger
 - Refatorando com **Composition Pattern** para desmembrar o Componente Input
 
+```17/04/2025```
+- Instalando a extensão do **Biome** para o formatter e o linter no projeto.
+
+
 <br/>
+
+
 
 ---
 
