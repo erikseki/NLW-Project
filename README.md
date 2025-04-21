@@ -5,37 +5,40 @@
 <br/>
 
 ```27/03/2025```
-- Instalação do **Node**
-- Instalação do **Next.js**
-- Instalação do **Tailwind Css**
+- Instalação do **Node**.
+- Instalação do **Next.js**.
+- Instalação do **Tailwind Css**.
 
 ```30/03/2025```
-- Explicação dos **Componentes** do React
-- Tipar os Componentes
-- Importando as Fontes/Cores do StyleGuid do Figma
+- Explicação dos **Componentes** do React.
+- Tipar os Componentes.
+- Importando as Fontes/Cores do StyleGuid do Figma.
 
 ```01/04/2025```
-- Configurando **CSS** do body da aplicação e Componente Button com o Tailwind 
+- Configurando **CSS** do body da aplicação e Componente Button com o Tailwind.
 
 ```02/04/2025```
-- Adicionando outro Componente Button Copy 
-- Adicionando a função **ComponentProps** do React para estender as propriedades de elementos HTML
+- Adicionando outro Componente Button Copy.
+- Adicionando a função **ComponentProps** do React para estender as propriedades de elementos HTML.
 
 ```04/04/2025```
-- Retirando o tipo children do ComponentProps pois já vem nativamente de um button html
+- Retirando o tipo children do ComponentProps pois já vem nativamente de um button html.
 
 ```06/04/2025```
-- Criando o **Componete Input** 
-- Estilizando o Input e o Icon
-- Adicionando as **Variantes Arbitrárias** no Placeholder para o Span
+- Criando o **Componete Input**.
+- Estilizando o Input e o Icon.
+- Adicionando as **Variantes Arbitrárias** no Placeholder para o Span.
 
 ```13/04/2025```
-- Criando uma propriedade boleana error para input-danger
-- Refatorando com **Composition Pattern** para desmembrar o Componente Input
+- Criando uma propriedade boleana error para input-danger.
+- Refatorando com **Composition Pattern** para desmembrar o Componente Input.
 
 ```17/04/2025```
 - Instalando a extensão do **Biome** para o formatter e o linter no projeto.
 
+```21/04/2025```
+- Ajustando a Estrutura Main no arquivo page.tsx.
+- Adicionando e configurando a primeira Logo da página.
 
 <br/>
 
