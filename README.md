@@ -40,6 +40,10 @@
 - Ajustando a Estrutura Main no arquivo page.tsx.
 - Adicionando e configurando a primeira Logo da página.
 
+```27/04/2025```
+- Adicionando textos e estilizações na **Main Page**.
+- Incluindo Componentes no form da **Main Page**.
+
 <br/>
 
 
