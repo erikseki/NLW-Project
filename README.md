@@ -44,6 +44,12 @@
 - Adicionando textos e estilizações na **Main Page**.
 - Incluindo Componentes no form da **Main Page**.
 
+```29/04/2025```
+- Configurando a rota do **InvitePage** e adicionando as primeiras div's. 
+
+
+
+
 <br/>
 
 
