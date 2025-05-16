@@ -52,7 +52,10 @@
 - Adicionando o **InputField, InputIcon e IconButton** do Link de Indicação.
 
 ```10/05/2025```
-- 
+- Adicionando cards de inscrição em **invitePage**.
+
+```15/05/2025```
+- Inserindo rankings de indicação (tags, imagens & componentes)
 
 <br/>
 
