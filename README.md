@@ -57,9 +57,25 @@
 ```15/05/2025```
 - Inserindo rankings de indicação (tags, imagens & componentes)
 
+```19/05/2025```
+- Criando um componente do **Ranking** e exportando para o InvitePage
+- Criando um componente do **Stats** e exportando para o InvitePage
+~~~javascript
+// Com o componente do Ranking & Stats, consigo deixar o código mais organizado. 
+// Separando a função e chamando ele na page.tsx.
+<Ranking />
+<Stats />
+~~~
+
+
+
+
 <br/>
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 <!-- ---
 
