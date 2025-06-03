@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import logo from '../../assets/logo.png'
+import { ExampleButton } from './example-button'
 import { InviteLinkInput } from './invite-link-input'
 import { Ranking } from './ranking'
 import { Stats } from './stats'
@@ -18,6 +19,8 @@ export default function InvitePage() {
             Para entrar no evento, acesse o link enviado para o seu e-mail.
           </p>
         </div>
+
+        <ExampleButton />
 
         <div className="space-y-6">
           <div className="space-y-3">
