@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import logo from '../../assets/logo.png'
-import { ExampleButton } from './example-button'
 import { InviteLinkInput } from './invite-link-input'
 import { Ranking } from './ranking'
 import { Stats } from './stats'
 
 export default function InvitePage() {
+  const inviteLink = 'http://localhost:3000/invite/1254136532161'
+
   return (
     <div className="min-h-dvh flex items-center justify-between gap-16 flex-col md:flex-row">
       <div className="flex flex-col gap-10 w-full max-w-[550px]">
@@ -20,8 +21,6 @@ export default function InvitePage() {
           </p>
         </div>
 
-        <ExampleButton />
-
         <div className="space-y-6">
           <div className="space-y-3">
             <h2 className="text-gray-200 text-xl font-heading font-semibold leading-none">
@@ -34,7 +33,7 @@ export default function InvitePage() {
             </p>
           </div>
 
-          <InviteLinkInput />
+          <InviteLinkInput inviteLink={inviteLink} />
           <Stats />
         </div>
       </div>

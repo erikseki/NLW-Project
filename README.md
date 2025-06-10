@@ -67,6 +67,9 @@
 <Stats />
 ~~~
 
+```09/06/2025```
+- Aplicando o 'use client' para eventos, estados e interações. 
+- Implementando o **navigator.clipboard.writetext** para o onClick no inviteLink.
 
 
 
