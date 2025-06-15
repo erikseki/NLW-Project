@@ -71,6 +71,11 @@
 - Aplicando o 'use client' para eventos, estados e interações. 
 - Implementando o **navigator.clipboard.writetext** para o onClick no inviteLink.
 
+```15/06/2025```
+- Instalando o **react-hook-form**.
+- Definindo o Schema de validação **Zod** com **zodResolver**.
+- Atribuindo **formState/errors** no SubscriptionForm e Estilizando o erros de formulário.
+
 
 
 <br/>
