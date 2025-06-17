@@ -76,6 +76,15 @@
 - Definindo o Schema de validação **Zod** com **zodResolver**.
 - Atribuindo **formState/errors** no SubscriptionForm e Estilizando o erros de formulário.
 
+```16/06/2025```
+- Atualizando o projeto com git subtree. A hierarquia de pastas ficou assim.
+~~~javascript
+nlw-project/
+  ├── nlw-react/  (frontend)
+  └── api/       (backend)
+~~~
+
+
 
 
 <br/>
